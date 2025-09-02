@@ -1,0 +1,105 @@
+# =========================
+# General OS files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# =========================
+# Python (in case you add scripts)
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# =========================
+# Node.js (if you experiment with JS tools later)
+# =========================
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# =========================
+# Security-sensitive files
+# =========================
+# SSH / Keys / Certs
+*.pem
+*.key
+*.pub
+*.crt
+*.csr
+*.der
+*.pfx
+*.p12
+
+# Credentials / Secrets
+*.env
+.env.*
+secrets.json
+credentials.json
+config.json
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# =========================
+# Office / Docs (temp files)
+# =========================
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+*.bak
+
+# =========================
+# Mac / Linux / Misc
+# =========================
+*.out
+*.lock
+*.pid
+*.seed
+*.orig
+
+# =========================
+# Archives (optional to ignore if large)
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# =========================
+# Figures and outputs (keep raw, ignore generated)
+# =========================
+/outputs/
+/results/
+/cache/
+
+# =========================
+# Repo-specific (safe defaults for labs)
+# =========================
+# Do NOT ignore synthetic test data, lab guides, or manuscripts
+# Commit only SAFE synthetic examples
