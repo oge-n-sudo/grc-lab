@@ -134,47 +134,35 @@ On a machine signed in as the **test user**:
 
 ---
 
-## 8) Record metrics (2 minutes)
+## 8) Record baseline metrics
 
-Create `/topics/pci-dss-azure/manuscript/metrics.csv` and add a line:
+Add a row in your metrics log (e.g., `metrics.csv`):
 
-step,items_tested,manually_labeled,auto_labeled,false_positives,notes,timestamp
-1-baseline,2,2,0,0,“Manual label works; auto not enabled yet”,
-
-You’ll update this table again in Step 2 (auto-labeling) and Step 3 (DLP).
-
----
-
-## 9) Save artifacts to your repo (2 minutes)
-
-- Place screenshots in: `/topics/pci-dss-azure/figures/step1_*`
-- Place the synthetic test file in: `/topics/pci-dss-azure/data/pci_test_doc.txt`
-- Commit with a clear message:
-  - `git add .`
-  - `git commit -m "PCI Step 1: Created PCI labels, published policy, manual labeling validated"`
+| step       | items_tested | manually_labeled | auto_labeled | false_positives | notes                                   | timestamp   |
+|------------|--------------|------------------|--------------|-----------------|-----------------------------------------|-------------|
+| 1-baseline | 2            | 2                | 0            | 0               | Manual label works; auto not enabled yet | YYYY-MM-DD |
 
 ---
 
-## 10) What’s next
+## 9) Next steps
 
-- **Step 2:** Configure **auto-labeling** in Purview using a **custom sensitive info type** for PAN with context rules (name/expiry proximity). Measure **precision/recall**.  
-- **Step 3:** Create **DLP policies** (SharePoint/OneDrive/Exchange/Teams) with escalating actions (audit → block external → block & override with justification). Track **false positives** and **exceptions**.
+- Step 2: Configure auto-labeling with a custom sensitive info type for PAN.  
+- Step 3: Add DLP policies with escalating enforcement.  
 
 ---
 
 ## Troubleshooting
 
-- **Labels not visible:** Wait up to 24h, restart Office apps, confirm the user is in the **publish policy** scope.  
-- **Sensitivity button missing:** Ensure the Office apps are logged in with the **scoped test user** and have **Information Protection** enabled in that tenant.  
-- **Content Explorer empty:** You may need additional **Purview RBAC** permissions or to wait for indexing.
+- **Labels not visible:** Wait up to 24h, restart Office apps, confirm the user is in the publish policy.  
+- **Sensitivity button missing:** Ensure the test user is licensed and Purview is enabled.  
+- **Content Explorer empty:** Indexing may take time, or you may need extra Purview permissions.  
 
 ---
 
-## Visa-friendly evidence checklist for Step 1
+## Evidence checklist for Step 1
 
 - [ ] Screenshot of label configuration summary  
-- [ ] Screenshot of label policy (publish) scope  
-- [ ] Screenshot of manual label applied in Word/Outlook  
-- [ ] Purview explorer/activity screenshot  
-- [ ] `metrics.csv` update committed  
-- [ ] Commit history showing timestamps and author
+- [ ] Screenshot of label policy (publish)  
+- [ ] Screenshot of label applied in Word/Outlook  
+- [ ] Screenshot of Purview explorer results  
+- [ ] Baseline metrics recorded  
