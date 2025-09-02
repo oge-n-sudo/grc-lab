@@ -1,8 +1,4 @@
 # Step 1 — Create a PCI DSS Sensitivity Label in Microsoft Purview
-
-**Goal (You):** Create a reusable sensitivity label for PCI card data, scoped and documented for audit.  
-**Goal (Reader):** Follow the same steps in their tenant and verify the results with synthetic data.
-
 ---
 
 ## ✅ Prerequisites
