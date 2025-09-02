@@ -1,8 +1,5 @@
 # Step 3 — Apply DLP Policies with Escalating Enforcement
 
-**Goal (You):** Build and test Data Loss Prevention (DLP) policies that control how PCI-labeled content is handled across Microsoft 365 services.  
-**Goal (Reader):** Learn how to design escalating DLP actions (audit → block external → block & override) and evaluate false positives.
-
 ---
 
 ## ✅ Prerequisites
