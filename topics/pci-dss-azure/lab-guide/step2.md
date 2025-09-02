@@ -1,8 +1,5 @@
 # Step 2 — Configure Auto-Labeling in Microsoft Purview
 
-**Goal (You):** Create an auto-labeling policy that detects PCI-like patterns and applies labels automatically.  
-**Goal (Reader):** Reproduce the same configuration, test it with synthetic data, and measure accuracy.
-
 ---
 
 ## ✅ Prerequisites
