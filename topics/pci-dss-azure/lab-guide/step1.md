@@ -1,4 +1,5 @@
 # Step 1 — Create a PCI DSS Sensitivity Label in Microsoft Purview
+
 ---
 
 ## ✅ Prerequisites
