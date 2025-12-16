@@ -103,3 +103,4 @@ config.json
 # =========================
 # Do NOT ignore synthetic test data, lab guides, or manuscripts
 # Commit only SAFE synthetic examples
+.DS_Store
