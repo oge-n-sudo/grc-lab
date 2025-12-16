@@ -3,7 +3,7 @@ A structured implementation and transition framework that treats onboarding as c
 Designed for secure SaaS client onboarding, controlled service transition, and audit-ready evidence.
 
 **Context:** SaaS Client Onboarding & Change Transition  
-**Alignment:** ISO/IEC 27001:2022 (A.5.10 Acceptable use of information and other associated assets), A.5.15 (Access control), A.8.9 (Configuration management), A.8.32 (Change management), A.8.1 (Information deletion)), ITIL v4  
+**Alignment:** ISO/IEC 27001:2022 (A.5.10 Acceptable use of information and other associated assets), A.5.15 (Access control), A.8.9 (Configuration management), A.8.32 (Change management), A.8.1 (Information deletion)) and ITIL 4  
 
 ## 📖 Overview
 Security weaknesses rarely originate in production. They are introduced earlier, during onboarding and transition, when delivery activities are rushed, configuration decisions go undocumented and access is provisioned without a clear baseline.
@@ -42,6 +42,16 @@ The lifecycle models onboarding as a controlled transition. Each stage has defin
 2. Service/Client Owner: approves final configuration and go-live readiness
 3. Operations/Support: receives the handover pack and owns the service post-transition
 
+## 🧭 Control and Practice Alignment
+The table below shows how common implementation tasks satisfy ISO 27001 control themes and ITIL 4 practices.
+
+| Implementation activity | ISO/IEC 27001:2022 theme | ITIL 4 practice | Application |
+|------------------------|---------------------------|-----------------|-------------|
+| Secure data intake     | Information protection    | Information Security Management | Accept onboarding data only via approved secure channels |
+| Admin and RBAC setup   | Access control            | Service Configuration Management | Named admin accounts with MFA and least privilege |
+| Baseline configuration | Configuration management  | Service Configuration Management | Apply and verify baseline before go-live |
+| Go-live control        | Change management         | Change Enablement | Formal approval before transition |
+| Cleanup and access removal | Information deletion | Information Security Management | Remove temp data and revoke elevated access |
 
 ## 📑 Artefacts Included
 1. Secure onboarding checklist (secure_onboarding_checklist.md)
