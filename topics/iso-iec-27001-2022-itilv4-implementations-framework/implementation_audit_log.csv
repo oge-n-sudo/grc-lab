@@ -1,0 +1,8 @@
+Date,Activity Category,Action Taken,Rationale/Reference,Performed By,Status
+2025-10-20,Data Intake,Received user_import.csv via SFTP,Ticket #INT-1024,Analyst A,Completed
+2025-10-21,Data Minimisation,Removed 'Home Address' and 'Personal Email' columns,Data minimisation policy (A.8.10),Analyst A,Completed
+2025-10-22,Access Control,Created Admin Account: j.doe@client.com,MFA Enforced. Ticket #REQ-555,Analyst A,Completed
+2025-10-22,Configuration,Applied Global Password Policy,Min 14 chars alphanumeric,Analyst A,Completed
+2025-10-25,Validation,Pre-Go-Live Baseline Check,Passed all checks in SOP,Analyst A,Verified
+2025-10-26,Transition,Handover Pack sent to Support,Secure Link generated,Analyst A,Completed
+2025-10-26,Cleanup,Local data files deleted,Recycle bin emptied,Analyst A,Completed
