@@ -21,5 +21,5 @@ graph LR
     QA -->|Approved| UAT[User Acceptance Testing]
     UAT -->|Formal sign-off| Live[Transition to Operations]
     Live -->|Remove elevated access| Clean[Post-Implementation Cleanup]
-
+```
 The lifecycle models onboarding as a controlled transition. Each stage has defined checks and exit conditions before progression.
