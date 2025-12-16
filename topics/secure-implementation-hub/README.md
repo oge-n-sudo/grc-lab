@@ -45,13 +45,18 @@ The lifecycle models onboarding as a controlled transition. Each stage has defin
 ## 🧭 Control and Practice Alignment
 The table below shows how common implementation tasks satisfy ISO 27001 control themes and ITIL 4 practices.
 
-| Implementation activity | ISO/IEC 27001:2022 theme | ITIL 4 practice | Application |
-|------------------------|---------------------------|-----------------|-------------|
-| Secure data intake     | Information protection    | Information Security Management | Accept onboarding data only via approved secure channels |
-| Admin and RBAC setup   | Access control            | Service Configuration Management | Named admin accounts with MFA and least privilege |
-| Baseline configuration | Configuration management  | Service Configuration Management | Apply and verify baseline before go-live |
-| Go-live control        | Change management         | Change Enablement | Formal approval before transition |
-| Cleanup and access removal | Information deletion | Information Security Management | Remove temp data and revoke elevated access |
+| Implementation activity         | ISO/IEC 27001:2022 Annex A theme        | ITIL 4 practice                  | Application                                                                                                                         |
+| ------------------------------- | --------------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Client data intake              | Information protection and handling     | Information Security Management  | Sensitive onboarding data accepted only through approved secure channels. Email attachments containing sensitive data are rejected. |
+| Data minimisation               | Information classification and handling | Knowledge Management             | Import files reviewed prior to processing. Non-essential fields removed and decisions documented.                                   |
+| Admin account creation          | Access control                          | Service Configuration Management | Named administrative accounts created with MFA enforced. Shared or generic admin accounts are prohibited.                           |
+| Authentication baseline         | Access control                          | Information Security Management  | Password policy, MFA enforcement, and session timeouts configured to a documented baseline.                                         |
+| System configuration            | Configuration management                | Service Configuration Management | Tenant configuration validated against a defined baseline before UAT and again before go-live.                                      |
+| Go-live approval                | Change control                          | Change Enablement                | Final configuration state recorded and formally approved prior to transition.                                                       |
+| Audit logging validation        | Logging and monitoring                  | Information Security Management  | Authentication events and privilege changes verified as logged and retained.                                                        |
+| Removal of temporary access     | Access control                          | Change Enablement                | Implementation-only elevated access removed immediately after handover.                                                             |
+| Cleanup of onboarding artefacts | Information deletion                    | Information Security Management  | Temporary onboarding files removed from endpoints and sync locations according to policy.                                           |
+
 
 ## 📑 Artefacts Included
 1. Secure onboarding checklist (secure_onboarding_checklist.md)
