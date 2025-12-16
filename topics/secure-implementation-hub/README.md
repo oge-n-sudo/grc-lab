@@ -3,7 +3,7 @@ A structured implementation and transition framework that treats onboarding as c
 Designed for secure SaaS client onboarding, controlled service transition, and audit-ready evidence.
 
 **Context:** SaaS Client Onboarding & Change Transition  
-**Alignment:** ISO/IEC 27001:2022 (A.5.10 Acceptable use of information and other associated assets), A.5.15 (Access control), A.8.9 (Configuration management), A.8.32 (Change management), A.8.1 (Information deletion)) and ITIL 4  
+**Alignment:** ISO/IEC 27001:2022 (A.5.10, A.5.12–A.5.18, A.8.9, A.8.10, A.8.15–A.8.16, A.8.32) and ITIL 4  
 
 ## 📖 Overview
 Security weaknesses rarely originate in production. They are introduced earlier, during onboarding and transition, when delivery activities are rushed, configuration decisions go undocumented and access is provisioned without a clear baseline.
@@ -66,8 +66,7 @@ A structured evidence trail capturing configuration actions, approvals, and comp
 3. Framework and mapping (README.md)
 The control intent and service management alignment for reviews, audits, and handover.
 
-## 📌 Evidence and Audit Intent
-🛠️ How to Use
+## 🛠️ How to Use
 1. Use the checklist during onboarding and configuration work.
 2. Record changes and approvals in the audit log as you go.
 3. Use this README to explain control intent during reviews and transition discussions.
