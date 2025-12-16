@@ -23,3 +23,10 @@ graph LR
     Live -->|Remove elevated access| Clean[Post-Implementation Cleanup]
 ```
 The lifecycle models onboarding as a controlled transition. Each stage has defined checks and exit conditions before progression.
+
+## ✅ Scope
+1. Secure intake and handling of onboarding data
+2. Access provisioning and role design (least privilege)
+3. Configuration baselines and validation prior to go-live
+4. Change traceability, approvals, and clean handover into operations
+5. Post-implementation cleanup and removal of temporary access
