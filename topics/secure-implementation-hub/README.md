@@ -3,7 +3,7 @@ A structured implementation and transition framework that treats onboarding as c
 Designed for secure SaaS client onboarding, controlled service transition, and audit-ready evidence.
 
 **Context:** SaaS Client Onboarding & Change Transition  
-**Alignment:** ISO 27001 (A.8.9, A.5.15), ITIL v4  
+**Alignment:** ISO/IEC 27001:2022 (A.5.10, A.5.15, A.8.9, A.8.32, A.8.10), ITIL v4  
 
 ## 📖 Overview
 Security weaknesses rarely originate in production. They are introduced earlier, during onboarding and transition, when delivery activities are rushed, configuration decisions go undocumented, and access is provisioned without a clear baseline.
@@ -21,5 +21,8 @@ graph LR
     QA -->|Approved| UAT[User Acceptance Testing]
     UAT -->|Formal sign-off| Live[Transition to Operations]
     Live -->|Remove elevated access| Clean[Post-Implementation Cleanup]
+
+    style Config fill:#f9f,stroke:#333,stroke-width:2px
+    style Clean fill:#ffcccc,stroke:#333,stroke-width:2px
 ```
 The lifecycle models onboarding as a controlled transition. Each stage has defined checks and exit conditions before progression.
