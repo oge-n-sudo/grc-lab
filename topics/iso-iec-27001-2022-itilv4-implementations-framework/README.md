@@ -1,6 +1,6 @@
 # Secure Service Delivery & Implementation Framework with ISO 27001 and ITIL 4
 A structured implementation and transition framework that treats onboarding as control-bearing work, not operational overhead.
-Designed for secure SaaS client onboarding, controlled service transition, and audit-ready evidence.
+Designed for secure SaaS client onboarding, controlled service transition and audit-ready evidence.
 
 **Context:** SaaS Client Onboarding & Change Transition  
 **Alignment:** ISO/IEC 27001:2022 (A.5.10, A.5.12–A.5.18, A.8.9, A.8.10, A.8.15–A.8.16, A.8.32) and ITIL 4  
