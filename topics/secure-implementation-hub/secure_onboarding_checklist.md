@@ -34,3 +34,7 @@
 - [ ] **Privilege revocation:** Implementation-only elevated access removed immediately after handover (A.5.18).
 - [ ] **Onboarding data removal:** Temporary onboarding files removed from endpoints and any sync locations in accordance with information deletion and retention requirements (A.8.10).
 - [ ] **Handover and closure:** Handover pack delivered via secure link and onboarding ticket formally closed.
+
+This secure onboarding checklist is designed to align with ISO/IEC 27001:2022 Annex A control themes and ITIL 4 service management practices. The activities in this SOP primarily support controls relating to acceptable use and information handling (A.5.10, A.5.12–A.5.14), access control and authentication (A.5.15–A.5.18), configuration management (A.8.9), logging and monitoring (A.8.15–A.8.16), change management during transition (A.8.32) and information deletion (A.8.10).
+
+From an ITIL 4 perspective, the checklist supports Information Security Management, Service Configuration Management, Change Enablement, and Knowledge Management by embedding security and governance requirements directly into onboarding and transition activities rather than treating them as separate assurance tasks.
