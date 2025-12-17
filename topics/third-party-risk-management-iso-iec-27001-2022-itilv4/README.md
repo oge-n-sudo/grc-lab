@@ -54,7 +54,6 @@ A focused intake form used to gather information about a vendor’s security con
 A structured scoring model that converts questionnaire responses into a risk rating.
 3. Vendor Due Diligence Report (vendor_due_diligence_report.md)
 A concise executive summary documenting findings, risk level, and a clear recommendation.
-
 Together, these artefacts provide both operational guidance and audit-ready evidence.
 
 ## 📊 Risk Scoring Approach
@@ -65,5 +64,4 @@ Not all vendors carry the same level of risk. Scoring is based on a combination 
 - Encryption of data at rest or in transit
 - Multi-factor authentication for administrative access
 - A defined breach notification commitment
-
 This ensures that critical weaknesses are not diluted by averaging scores.
