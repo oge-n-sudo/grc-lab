@@ -9,7 +9,7 @@ Designed to help both **professionals** and **learners** build real skills with 
 - **[Secure Service Delivery & Implementation Framework with ISO 27001 and ITIL 4](./topics/iso-iec-27001-2022-itilv4-implementations-framework/)**  
   A structured implementation and transition framework for secure SaaS client onboarding, controlled service transition and audit-ready evidence aligned to ISO/IEC 27001 and ITIL 4.
   
-  - **[Third-Party Risk Management (TPRM) Framework with ISO 27001 and ITIL 4](./topics/third-party-risk-management-iso-iec-27001-2022-itilv4/)**  
+- **[Third-Party Risk Management (TPRM) Framework with ISO 27001 and ITIL 4](./topics/third-party-risk-management-iso-iec-27001-2022-itilv4/)**  
   A practical, risk-based framework for assessing third-party vendors before onboarding for secure SaaS ecosystems by ensuring suppliers meet baseline security expectations.
 
 - **[PCI DSS 4.0 in Microsoft 365/Azure](./topics/pci-dss-azure/)**  
