@@ -1,0 +1,7 @@
+Control Area,High Risk Condition (Red Flag),Medium Risk Condition (Amber Flag),Low Risk Condition (Green Flag)
+Governance and Assurance,"No security policies, no certifications, no independent oversight","Policies exist but controls are self-attested only; no recent independent review","ISO/IEC 27001 or SOC 2 Type II certification in place"
+Encryption,"No encryption at rest or in transit","Encryption in place but key management is opaque or vendor-controlled only","Encryption at rest and in transit with clear key management practices"
+Access Control,"MFA not enforced for users with access to customer data","MFA enforced but shared or generic accounts exist","MFA enforced globally with named accounts and RBAC"
+Incident Notification,"No contractual breach notification commitment","Notification commitment exists but exceeds 72 hours","Contractual breach notification within 72 hours"
+Resilience and Recovery,"No backups or backups not tested","Backups exist but restoration testing is infrequent or RTO > 24 hours","Daily backups with tested restoration and defined RTO < 4 hours"
+Software Security,"No penetration testing or testing older than 2 years","Internal testing only or limited external testing","Independent third-party penetration testing performed annually with no critical open findings"
