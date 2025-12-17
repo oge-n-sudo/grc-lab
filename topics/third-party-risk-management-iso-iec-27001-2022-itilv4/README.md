@@ -14,14 +14,11 @@ Modern services rarely operate in isolation. Most platforms rely on external ven
 ---
 
 ## 🎯 Objectives
-
 1. Standardise how new vendors are assessed before onboarding  
 2. Focus assessment effort on critical security controls  
 3. Translate vendor responses into a clear risk outcome (Low, Medium, High)  
 4. Support contractual and onboarding decisions with documented evidence  
 5. Enable periodic review and reassessment of supplier risk  
-
----
 
 ## 🔄 Assessment Workflow
 The framework follows a simple, repeatable process that ensures no vendor is onboarded without a documented risk decision.
@@ -37,18 +34,36 @@ graph LR
 ```
 Each stage has a clear owner and output, creating traceability from request to decision.
 
----
-
 ## 🧭 Control Alignment
 This framework aligns with the supplier relationship controls in ISO/IEC 27001:2022:
-1. A.5.19 – Information security in supplier relationships
+1. A.5.19 - Information security in supplier relationships
 Overall governance of third-party security expectations.
-2. A.5.20 – Addressing information security within supplier agreements
+2. A.5.20 - Addressing information security within supplier agreements
 Contractual clauses, breach notification commitments and right-to-audit conditions.
-3. A.5.21 – Managing information security in the ICT supply chain
+3. A.5.21 - Managing information security in the ICT supply chain
 Assessment of SaaS providers, sub-processors, hosting and integrations.
-4. A.5.22 – Monitoring, review, and change management of supplier services
+4. A.5.22 - Monitoring, review, and change management of supplier services
 Periodic reassessment and conditional approvals based on risk.
 5. From an ITIL 4 perspective, the framework supports Information Security Management, Supplier Management, Change Enablement and Knowledge Management.
 
+## 📂 Artefacts Included
+This project consists of three core operational artefacts:
+1. Vendor Security Questionnaire (vendor_security_questionnaire.md)
+A focused intake form used to gather information about a vendor’s security controls and practices.
+2. Risk Scoring Matrix (risk_scoring_matrix.csv)
+A structured scoring model that converts questionnaire responses into a risk rating.
+3. Vendor Due Diligence Report (vendor_due_diligence_report.md)
+A concise executive summary documenting findings, risk level, and a clear recommendation.
 
+Together, these artefacts provide both operational guidance and audit-ready evidence.
+
+## 📊 Risk Scoring Approach
+Not all vendors carry the same level of risk. Scoring is based on a combination of:
+1. Data criticality (for example PII, financial data, operational data)
+2. Control maturity (policy, implementation, and independent assurance)
+3. Certain controls are treated as non-negotiable. A vendor is automatically flagged as High Risk if any of the following are missing:
+- Encryption of data at rest or in transit
+- Multi-factor authentication for administrative access
+- A defined breach notification commitment
+
+This ensures that critical weaknesses are not diluted by averaging scores.
