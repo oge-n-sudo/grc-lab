@@ -1,6 +1,6 @@
 # 🛡️ GRC Lab
 
-My collection of **reproducible labs and practitioner articles** on Cybersecurity, Governance, Risk and Compliance (GRC).  
+My collection of **reproducible labs, projects and articles** on Information Security, Governance, Risk and Compliance (GRC).  
 Designed to help both **professionals** and **learners** build real skills with replication packs for transparency.
 
 ---
@@ -8,6 +8,9 @@ Designed to help both **professionals** and **learners** build real skills with 
 ## 📂 Topics
 - **[Secure Service Delivery & Implementation Framework with ISO 27001 and ITIL 4](./topics/iso-iec-27001-2022-itilv4-implementations-framework/)**  
   A structured implementation and transition framework for secure SaaS client onboarding, controlled service transition and audit-ready evidence aligned to ISO/IEC 27001 and ITIL 4.
+  
+  - **[Third-Party Risk Management (TPRM) Framework with ISO 27001 and ITIL 4](./topics/third-party-risk-management-iso-iec-27001-2022-itilv4/)**  
+  A practical, risk-based framework for assessing third-party vendors before onboarding for secure SaaS ecosystems by ensuring suppliers meet baseline security expectations.
 
 - **[PCI DSS 4.0 in Microsoft 365/Azure](./topics/pci-dss-azure/)**  
   Step-by-step implementation of sensitivity labels, auto-labelling and DLP policies mapped to PCI DSS 4.0 requirements.
@@ -32,8 +35,9 @@ Designed to help both **professionals** and **learners** build real skills with 
 ---
 
 ## 🛠️ Tools & Frameworks
-**Tools:** Wazuh, Microsoft Sentinel, Defender for Endpoint, Splunk, Datadog, Nessus, ServiceNow, Jira, Confluence, Microsoft 365, AWS, Azure, VMware  
+**Tools:** Microsoft 365 (Microsoft Sentinel, Defender for Endpoint, Purview, Sharepoint, Azure), Wazuh, Splunk, Datadog, Nessus, ServiceNow, Jira, Zendesk, Confluence, AWS, VMware  
 **Frameworks:** ISO 27001, ISO 31000, ISO 27005, NIST CSF, PCI DSS, GDPR, Cyber Essentials  
+**Skills** Security Operations, Incident Detection & Response, Security Awareness, Risk Registers, Third-Party Risk Management (TPRM), Business Continuity Planning, Disaster Recovery, Troubleshooting, Secure Configuration Baselines, IT Service Management, Stakeholder Communication & Reporting, Complex Problem Resolution, Program Delivery, Team Leadership
 
 ---
 
