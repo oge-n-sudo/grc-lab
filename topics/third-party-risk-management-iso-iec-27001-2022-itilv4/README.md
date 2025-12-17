@@ -54,6 +54,7 @@ A focused intake form used to gather information about a vendor’s security con
 A structured scoring model that converts questionnaire responses into a risk rating.
 3. Vendor Due Diligence Report (vendor_due_diligence_report.md)
 A concise executive summary documenting findings, risk level, and a clear recommendation.
+
 Together, these artefacts provide both operational guidance and audit-ready evidence.
 
 ## 📊 Risk Scoring Approach
@@ -64,4 +65,27 @@ Not all vendors carry the same level of risk. Scoring is based on a combination 
 - Encryption of data at rest or in transit
 - Multi-factor authentication for administrative access
 - A defined breach notification commitment
+
 This ensures that critical weaknesses are not diluted by averaging scores.
+
+## 🛠️ How to Use This Framework
+1. Intake: A business requests a new vendor or integration.
+2. Assess: The Vendor Security Questionnaire is issued to the vendor.
+3. Verify: Responses are reviewed and supporting evidence requested where applicable.
+4. Score: The Risk Scoring Matrix is applied to determine overall risk.
+5. Decide: A Due Diligence Report is produced recommending approval, rejection, or conditional acceptance.
+6. Review: Approved vendors are scheduled for periodic reassessment based on risk level.
+
+## 📌 Example Scenario
+A marketing team proposes using a third-party AI tool to analyse customer support tickets.
+The Implementation Analyst initiates the TPRM process. The vendor confirms encryption and MFA but lacks SOC 2 or ISO 27001 certification and permits shared support accounts.
+The resulting risk rating would most likely be **Medium Risk**. A conditional approval would need to be issued, restricting the use of PII until additional controls are implemented and scheduling a reassessment within six months.
+
+## 📜 Evidence and Assurance
+This framework produces traceable, time-bound evidence that can be used to support:
+- Internal and external audits
+- Supplier assurance reviews
+- Contractual risk discussions
+- Post-incident analysis involving third parties
+
+It demonstrates how supplier risk is identified, assessed and actively managed rather than implicitly accepted.
