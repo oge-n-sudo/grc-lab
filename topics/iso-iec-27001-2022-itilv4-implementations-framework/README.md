@@ -64,7 +64,8 @@ A repeatable SOP used during onboarding to apply controls consistently.
 2. Implementation audit log (implementation_audit_log.csv)
 A structured evidence trail capturing configuration actions, approvals, and compliance outcomes.
 3. Framework and mapping (README.md)
-The control intent and service management alignment for reviews, audits, and handover.
+
+The control intent and service management alignment for reviews, audits and handover.
 
 ## 🛠️ How to Use
 1. Use the checklist during onboarding and configuration work.
