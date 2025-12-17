@@ -78,7 +78,9 @@ This ensures that critical weaknesses are not diluted by averaging scores.
 
 ## 📌 Example Scenario
 A marketing team proposes using a third-party AI tool to analyse customer support tickets.
+
 The Implementation Analyst initiates the TPRM process. The vendor confirms encryption and MFA but lacks SOC 2 or ISO 27001 certification and permits shared support accounts.
+
 The resulting risk rating would most likely be **Medium Risk**. A conditional approval would need to be issued, restricting the use of PII until additional controls are implemented and scheduling a reassessment within six months.
 
 ## 📜 Evidence and Assurance
